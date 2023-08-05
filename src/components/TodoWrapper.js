@@ -3,6 +3,7 @@ import { TodoForm } from './TodoForm';
 import { v4 as uuidv4} from 'uuid';
 import { Todo } from './Todo';
 import { EditTodoForm } from './EditTodoForm';
+//Use this website for more installations: https://fontawesome.com/docs/web/use-with/react/
 uuidv4();
 
 export const TodoWrapper = () => {
@@ -51,7 +52,7 @@ export const TodoWrapper = () => {
                 )
               );
         }
-        
+
         /* 
         Map through the todos, which will take in todo and will check todo.id equals the id we pass in
         if this is the case then we will make a copy of the todo using the spread operator and
